@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_certificate_pining/flutter_certificate_pining.dart';
+import 'package:flutter_certificate_pinning/flutter_certificate_pinning.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 class SelfCustomValidator implements CustomValidator {

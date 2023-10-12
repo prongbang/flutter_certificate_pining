@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:flutter_certificate_pining/verification/certificate_trusted_configuration.dart';
-import 'package:flutter_certificate_pining/verification/certificate_validator.dart';
-import 'package:flutter_certificate_pining/verification/http_client_creator.dart';
+import 'package:flutter_certificate_pinning/verification/certificate_trusted_configuration.dart';
+import 'package:flutter_certificate_pinning/verification/certificate_validator.dart';
+import 'package:flutter_certificate_pinning/verification/http_client_creator.dart';
 
 class SecurityHttpClientCreator implements HttpClientCreator {
   final CertificateValidator certificateValidator;

@@ -1,7 +1,7 @@
-name: flutter_certificate_pining
+name: flutter_certificate_pinning
 description: Flutter certificate pining for Dio package
 version: 1.0.0
-homepage: https://github.com/prongbang/flutter_certificate_pining
+homepage: https://github.com/prongbang/flutter_certificate_pinning
 
 environment:
   sdk: ">=2.12.0 <4.0.0"

@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
-import 'package:flutter_certificate_pining/verification/certificate_fingerprint.dart';
-import 'package:flutter_certificate_pining/verification/certificate_validator.dart';
-import 'package:flutter_certificate_pining/verification/certificate_verification.dart';
-import 'package:flutter_certificate_pining/verification/http_client_creator.dart';
+import 'package:flutter_certificate_pinning/verification/certificate_fingerprint.dart';
+import 'package:flutter_certificate_pinning/verification/certificate_validator.dart';
+import 'package:flutter_certificate_pinning/verification/certificate_verification.dart';
+import 'package:flutter_certificate_pinning/verification/http_client_creator.dart';
 
 class HttpsCertificateVerification implements CertificateVerification {
   final HttpClientCreator httpClientCreator;

@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:crypto/crypto.dart';
-import 'package:flutter_certificate_pining/verification/certificate_validator.dart';
-import 'package:flutter_certificate_pining/verification/custom_validator.dart';
+import 'package:flutter_certificate_pinning/verification/certificate_validator.dart';
+import 'package:flutter_certificate_pinning/verification/custom_validator.dart';
 
 class SelfCertificateValidator implements CertificateValidator {
   final CustomValidator customValidator;

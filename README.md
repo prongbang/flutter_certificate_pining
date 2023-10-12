@@ -1,6 +1,6 @@
-# flutter_certificate_pining
+# flutter_certificate_pinning
 
-[![pub package](https://img.shields.io/pub/v/flutter_certificate_pining.svg)](https://pub.dartlang.org/packages/flutter_certificate_pining)
+[![pub package](https://img.shields.io/pub/v/flutter_certificate_pinning.svg)](https://pub.dartlang.org/packages/flutter_certificate_pinning)
 
 HTTPS certificate verification or public key pinning for Dio.
 
@@ -11,7 +11,7 @@ HTTPS certificate verification or public key pinning for Dio.
 - Get SHA256 Certificate Fingerprint from Unit Test
 
 ```shell
-flutter test test/flutter_certificate_pining_test.dart
+flutter test test/flutter_certificate_pinning_test.dart
 ```
 
 Output

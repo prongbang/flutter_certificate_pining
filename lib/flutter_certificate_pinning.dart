@@ -1,4 +1,4 @@
-library flutter_certificate_pining;
+library flutter_certificate_pinning;
 
 export 'command/certificate_executor.dart';
 export 'verification/certificate_fingerprint.dart';
