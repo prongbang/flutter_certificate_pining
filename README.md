@@ -51,7 +51,7 @@ class SelfCustomValidator implements CustomValidator {
 }
 ```
 
-- Certificate Trusted Configuration
+- Certificate Trusted Configuration (Optional)
 
 ```dart
 class LocalCertificateTrustedConfiguration implements CertificateTrustedConfiguration {
