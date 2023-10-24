@@ -24,13 +24,13 @@ Fingerprints: [b235f7c569490f2b2b861d2237e303337fe45a80ffec55dc140abda69e843d51]
 - SHA256 Certificate Fingerprint
 
 ```dart
-class Sha256CertificateFingerprint implements CertificateFingerprint {
+class Sha256CertificateFingerprint extends CertificateFingerprint {
   @override
-  Future<Map<String, bool>> fingerprints() async {
-    return {
+  Future<List<String>> fingerprints() async {
+    return [
       // ExpiredAt: Dec 11 08:19:25 2023 GMT
-      'b235f7c569490f2b2b861d2237e303337fe45a80ffec55dc140abda69e843d51': true,
-    };
+      'b235f7c569490f2b2b861d2237e303337fe45a80ffec55dc140abda69e843d51',
+    ];
   }
 }
 ```

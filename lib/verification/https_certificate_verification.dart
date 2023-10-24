@@ -21,7 +21,7 @@ class HttpsCertificateVerification implements CertificateVerification {
   void config(Dio dio) async {
     // Get certificate fingerprints
     if (fingerprints.isEmpty) {
-      fingerprints = await certificateFingerprint.fingerprints();
+      fingerprints = await certificateFingerprint.fingerprintsMap();
     }
 
     // Create Http Client Adapter
